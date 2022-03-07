@@ -1,5 +1,6 @@
-const printHelloWorld = () => {
-  console.log("Hello World");
+const helloWorld = () => {
+  const str = "Hello World!";
+  console.log(str);
 };
 
-module.exports = { printHelloWorld };
+module.exports = { helloWorld };
