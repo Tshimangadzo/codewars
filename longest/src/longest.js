@@ -1,9 +1,7 @@
 const longest = (a, b) => {
-  const aSet = [...new Set(a)];
-  const bSet = [...new Set(b)];
-  const aSort =  aSet.sort()
-  const bSort =  bSet.sort()
-  return aSort.length > bSort.length?aSort.join(''):bSort.join('');
+  const set = [...new Set(a.concat(b))];
+  const setSort =  set.sort()
+  return setSort.join('');
 };
 
 longest("aretheyhere", "yestheyarehere")
