@@ -1,0 +1,25 @@
+{
+  "name": "codewars",
+  "version": "1.0.0",
+  "description": "This repo is more focused on Solving KATAS challenges from Codewars https://www.codewars.com/kata/",
+  "main": "src/hello.js",
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "^9.2.1",
+    "sinon": "^13.0.1"
+  },
+  "scripts": {
+    "test": "mocha",
+    "start":"node src/hello.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tshimangadzo/codewars.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tshimangadzo/codewars/issues"
+  },
+  "homepage": "https://github.com/Tshimangadzo/codewars#readme"
+}
