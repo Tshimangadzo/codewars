@@ -1,0 +1,19 @@
+{
+  "name": "tribonacci",
+  "version": "1.0.0",
+  "description": "For this project, the document is here https://www.codewars.com/kata/556deca17c58da83c00002db/javascript",
+  "main": "src/tribonacci.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha",
+    "start":"node src/tribonacci.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^9.2.1",
+    "sinon": "^13.0.1"
+  }
+}
