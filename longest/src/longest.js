@@ -5,5 +5,6 @@ const longest = (a, b) => {
 };
 
 longest("aretheyhere", "yestheyarehere")
+longest("aretheyhere", "yestheyarehere")
 
 module.exports = { longest };
