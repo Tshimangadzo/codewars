@@ -1,8 +1,14 @@
 const {longest} = require("../src/longest")
 const assert = require("assert");
 
-describe("Sum two smallest numbers function",()=>{
-    it("Should sum two smallest number",()=>{
+describe("Longest fuction",()=>{
+    it("Should return longest distinct sorted word",()=>{
         assert.equal(longest("aretheyhere", "yestheyarehere"), "aehrsty")
+    })
+    it("Should return longest distinct sorted word",()=>{
+        assert.equal(longest("loopingisfunbutdangerous", "lessdangerousthancoding"), "abcdefghilnoprstu")
+    })
+    it("Should return longest distinct sorted word",()=>{
+        assert.equal(longest("inmanylanguages", "theresapairoffunctions"), "acefghilmnoprstuy")
     })
 })
