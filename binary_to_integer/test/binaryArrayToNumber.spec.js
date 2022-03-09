@@ -1,4 +1,4 @@
-const { binaryArrayToNumber } = require("../src/longest");
+const { binaryArrayToNumber } = require("../src/binaryArrayToNumber");
 const assert = require("assert");
 
 describe("Binary array to number fuction", () => {
