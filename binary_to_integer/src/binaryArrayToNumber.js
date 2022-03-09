@@ -1,5 +1,6 @@
 const binaryArrayToNumber = arr => {
  
+    
 };
 
 
