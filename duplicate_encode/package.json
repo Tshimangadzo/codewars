@@ -1,0 +1,16 @@
+{
+  "name": "sum",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "^9.2.1"
+  },
+  "scripts": {
+    "test": "mocha",
+    "start": "node src/duplicateEncode"
+  },
+  "author": "",
+  "license": "ISC"
+}
